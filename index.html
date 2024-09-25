@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="music">
+      <h2 class="name">Shape of You</h2>
+      <p class="artist">Ed Sheeran</p>
+      <img
+        src="photo/shape.jpg"
+        class="albumimg"
+        height="200px"
+        width="200px"
+      />
+      <audio controls class="play">
+        <source
+          src="songs/Shape of You.mp3"
+          type="audio/mpeg"
+          class="playsource"
+        />
+      </audio>
+      <div class="icons">
+        <i class="fa-solid fa-backward prev" title="prev"></i>
+        <i class="fa-solid fa-play run stop" title="run/stop"></i>
+        <i class="fa-solid fa-forward next" title="next"></i>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
